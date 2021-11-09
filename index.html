@@ -15,7 +15,7 @@
     <h1>Bienvenido al Hipotec Simulator</h1>
     <form class="formulario">
         <div>
-    <input type="number" id="monto" step="1000" minlength="0" placeholder="Introduzca monto en €" required>
+    <input type="number" id="monto" step="1000" min="0" placeholder="Introduzca monto en €" required>
 </div>
 <div>
     <input type="range" class="range" id="cuotas" value="20" min="0" max="30" step="5" oninput= "labelCuotas.value = cuotas.value"><br>
