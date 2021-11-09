@@ -1,0 +1,14 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.form-range{
+    max-width: 250px;
+}
+#resultado,
+.btn-primary{
+    margin-top: 10px;
+}
+#labelCuotas{
+    margin-bottom: 10px;
+}
